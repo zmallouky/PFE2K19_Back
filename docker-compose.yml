@@ -1,32 +1,17 @@
+# Use root/example as user/password credentials
 version: '3.1'
 
 services:
-  web:
-    container_name: webappcdp
-    restart : always
-    build: .
-    depends_on:
-      - mongo
-    ports:
-      - 3000:3000
-    volumes:
-      - ./src:/app/src
 
   mongo:
-    container_name: mongo
     image: mongo
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-      MYSQL_DATABASE: cdp
     ports:
-      - 3001:3306
-    volumes:
-      - ./data:/data/db
+      - '27017:27017'
+    restart: always
 
-  adminer:
-    container_name: adminersql
-    image: adminer
+
+  mongo-express:
+    image: mongo-express
     restart: always
     ports:
-      - 8081:8080
+      - 8081:8081

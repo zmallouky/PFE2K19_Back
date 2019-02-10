@@ -1,0 +1,1 @@
+{"version":3,"file":"model-mcc.js","sourceRoot":"","sources":["../../src/repositories/model-mcc.ts"],"names":[],"mappings":";;AAAA,uCAAwD;AAM3C,QAAA,kCAAkC,GAAW,IAAI,iBAAM,CAAC;IACjE,qBAAqB,EAAG,MAAM;IAC9B,OAAO,EAAG,MAAM;IAChB,WAAW,EAAG,MAAM;IACpB,SAAS,EAAG,MAAM;IAClB,WAAW,EAAG,MAAM;CACrB,CAAC,CAAC;AAGQ,QAAA,gCAAgC,GAA8C,gBAAK,CAAqC,KAAK,EAAE,0CAAkC,EAAC,KAAK,CAAC,CAAC"}
